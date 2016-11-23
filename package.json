@@ -1,0 +1,27 @@
+{
+  "name": "nodejslab",
+  "version": "1.0.0",
+  "description": "basic of nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulocamposi/nodejslab.git"
+  },
+  "author": "Saulo Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulocamposi/nodejslab/issues"
+  },
+  "homepage": "https://github.com/saulocamposi/nodejslab#readme",
+
+  "devDependencies" : {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
