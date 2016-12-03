@@ -10,9 +10,6 @@ console.log("reading function module first" + mymodule.first);
 console.log("reading function module second" + mymodule.second);
 console.log("reading function module third" + mymodule.third);
 
-
 mymodule.first();
-
 mymodule.second();
-
 mymodule.third();
