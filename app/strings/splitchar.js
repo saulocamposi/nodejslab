@@ -29,3 +29,17 @@ for (var i = 0; i < s2characters.length; i++) {
 lengthString =  s1.length >= s2.length ? s2.length : s1.length;
 
 console.log( lengthString );
+
+s3 = s1characters.concat(s2characters);
+
+console.log(s3);
+
+for (var i = 0; i < s3.length; i++) {
+  for (var j = 0; j < s3.length; j++) {
+    if(i !=j && s3[j] == s3[i]){
+      s3.splice(i,1);
+    }
+  }
+}
+
+console.log(s3);
