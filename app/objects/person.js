@@ -4,7 +4,8 @@ function person(){
 
   var firstStep = function(){console.log("First Step")};
 
-  return { first : firstStep,
+  return {
+           first : firstStep,
            name : "Author Name",
            age : 33,
            gender : "Male"
