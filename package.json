@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/saulocamposi/nodejslab#readme",
 
+  "dependencies" : {
+    "mysql" : "*"
+  },
+
   "devDependencies" : {
     "mocha": "*",
     "chai": "*"
