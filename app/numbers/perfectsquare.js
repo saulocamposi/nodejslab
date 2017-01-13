@@ -1,6 +1,4 @@
 // TODO find the next perfectSquare
-
-
 function perfectSquare(sq) {
     console.log("value sq" + sq);
     if (sq % 2 == 0 && sq != 1) {
@@ -14,9 +12,6 @@ function perfectSquare(sq) {
 
     perfectSquare(v);
 }
-
-
-
 
 function perfectSquareLoop(sq){
   while (sq % 2 == 0 && sq != 1) {
