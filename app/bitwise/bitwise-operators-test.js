@@ -18,14 +18,38 @@ console.log(" Number XOR is : " + xor_number);
 console.log(" Number SHIFT LEFT is : " + shift_left_number);
 console.log(" Number SHIFT RIGTH is : " + shift_rigth_number);
 
-
 describe("Logs above", function () {
-  it("It must be number", function(){
-    assert(32,number);
-  });
 
-  it("It must be binary", function(){    
-    assert("helo", binary);
-  });
+    it("It must be number 32", function(){
+      assert(number == 32);
+    });
+
+    it("It must be binary number 10000", function(){
+      assert(binary == 100000);
+    });
+
+    it("It must be AND 0", function(){
+      assert(and_number == 0);
+    });
+
+    it("It must be OR 33", function(){
+      assert(or_number == 33);
+    });
+
+    it("It must be NOT -33", function(){
+      assert(not_number == -33);
+    });
+
+    it("It must be XOR 33", function(){
+      assert(xor_number == 33);
+    });
+
+    it("It must be SHIFT LEFT 256", function(){
+      assert(shift_left_number == 256);
+    });
+
+    it("It must be SHIFT RIGHT 4", function(){
+      assert(shift_rigth_number == 4);
+    });
 
 });
