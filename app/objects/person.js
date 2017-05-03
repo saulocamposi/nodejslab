@@ -16,8 +16,9 @@ a = person();
 b = a.first;
 b();
 c = a.name;
-console.log(c);
 d = a.age;
-console.log(d);
 e = a.gender;
+
+console.log(c);
+console.log(d);
 console.log(e);
