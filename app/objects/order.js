@@ -1,5 +1,9 @@
-module.export = order;
+var Order;
 
-order.prototype.first = function () {
+Order = function Order(){}
+
+Order.prototype.first = function () {
   console.log("prototype order");
 };
+
+module.exports = Order;
